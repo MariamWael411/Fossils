@@ -26,13 +26,8 @@ body {
 
 /* تنسيق الأيقونة اللي جوه الهيدر فقط */
 .header_icon {
-<<<<<<< Updated upstream
     width: 45px ; /* حجم صغير ومناسب للهيدر */
     height: 45px ;
-=======
-    width: 50px !important; /* حجم صغير ومناسب للهيدر */
-    height: 50px !important;
->>>>>>> Stashed changes
     object-fit: contain;
     
     /* لو الصورة ملونة وعايزاها بيضاء، فكي التعليق عن السطر اللي جاي: */

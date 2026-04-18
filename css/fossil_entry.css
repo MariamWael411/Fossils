@@ -36,7 +36,16 @@ body {
     object-fit: contain;
  
             }
-/* السطر اللي فيه الأيقونة والاسم والمدخل */
+
+.form-container {
+    background: rgba(255, 255, 255, 0.95); /* شفافية بسيطة عشان تبين الخلفية */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 500px;
+    margin-top: 50px;
+}
+            /* السطر اللي فيه الأيقونة والاسم والمدخل */
 .input-group {
     display: flex;
     align-items: center;

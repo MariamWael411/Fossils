@@ -31,13 +31,22 @@ body {
 
 /* تنسيق الأيقونة اللي جوه الهيدر فقط */
 .header_icon {
+<<<<<<< Updated upstream
     width: 40px ; /* حجم صغير ومناسب للهيدر */
     height: 40px ;
+=======
+    width: 50px ; /* حجم صغير ومناسب للهيدر */
+    height: 50px ;
+>>>>>>> Stashed changes
     object-fit: contain;
- 
+    
             }
+<<<<<<< Updated upstream
 
 .form-container {
+=======
+            .form-container {
+>>>>>>> Stashed changes
     background: rgba(255, 255, 255, 0.95); /* شفافية بسيطة عشان تبين الخلفية */
     padding: 40px;
     border-radius: 15px;
@@ -45,7 +54,12 @@ body {
     width: 500px;
     margin-top: 50px;
 }
+<<<<<<< Updated upstream
             /* السطر اللي فيه الأيقونة والاسم والمدخل */
+=======
+
+/* السطر اللي فيه الأيقونة والاسم والمدخل */
+>>>>>>> Stashed changes
 .input-group {
     display: flex;
     align-items: center;

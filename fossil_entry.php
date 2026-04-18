@@ -1,6 +1,22 @@
-<link rel="stylesheet" href="css/fossil_entry.css">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fossil_entry.css">
+    
+    <title>statistical website</title>
+</head>
+<body>
+    
+
 <div class="header-banner">
-    <img src="imgs/fossil_icon2.jpeg" class ="header_icon"><span>Fossils Data Entry</span>
+    <img src="imgs/skeleton.png" class ="header_icon"><span>Fossils Data Entry</span>
 </div>
 <div class="form-container">
     <form method="POST">
@@ -25,3 +41,5 @@
         <button type="submit" name="save_fos" class="submit-btn">Submit</button>
     </form>
 </div>
+</body>
+</html>

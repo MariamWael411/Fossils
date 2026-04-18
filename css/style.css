@@ -1,0 +1,147 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+ font-family: "Open Sans", sans-serif;
+scroll-behavior: smooth;
+}
+body{
+        background-image: url("../imgs/background.png");
+ background-repeat: no-repeat;
+    background-size: cover;
+}
+.background{
+display: inline-block;
+  text-align: center;
+  margin: 40px 0px 0px 550px;
+  color: rgb(17, 82, 233);
+}
+h1{
+
+    font-size: 40px;
+    padding-bottom: 10px;
+   border-bottom:3px solid  ;
+   border-image-source: linear-gradient( 
+      to right,
+        transparent,
+        #a2c6ef,
+        transparent 
+  );
+      border-image-slice: 1;
+}
+p{
+    color:#0000008d;
+    padding-top: 10px;
+    
+    font-size: 18px;
+}
+#title{
+
+   
+   margin-left: 680px;
+   margin-top: 40px;
+}
+div{
+display: inline-block;
+}
+.medical {
+
+    border:2px solid #3fd5e22f;
+ width: 20%;
+ height: 350px;
+ margin-left:550px ;
+ margin-top: 40px;
+ background-color: #fff;
+ border-radius: 10px;
+  transition: 0.5s ease;
+
+}
+div img{
+
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 43px;
+    padding-top: 15px;
+     
+}
+div h3{
+  display: inline-block;
+    margin-left: 50px;
+    font-size: 22px;
+    border-bottom:2px solid  ;
+   border-image-source: linear-gradient( 
+      to right,
+        transparent,
+        #a2c6ef,
+        transparent 
+  );
+      border-image-slice: 1;
+}
+div p{
+    margin-left: 75px;
+    margin-bottom: 20px;
+}
+div a{
+
+     margin-left: 40px;
+    text-decoration: none;
+    background-color:  rgb(17, 82, 233);
+    color: #fff;
+    padding: 10px 70px;
+    border-radius: 7px;
+
+    
+}
+
+div a:hover{
+
+    background-color: rgb(22, 22, 194) !important;
+}
+.fossil{
+   
+     border:2px solid #3fd5e22f;
+     width: 23%;
+     height: 350px;
+     background-color: #fff;
+     border-radius: 10px;
+     margin-left: 30px;
+     transition: 0.5s ease;
+}
+.fossil img{
+    margin-left: 70px;
+}
+.fossil h3{
+    margin-left: 100px;
+}
+.fossil p{
+     margin-left: 100px;
+}
+.fossil a{
+    padding: 10px 90px;
+    margin-left: 40px;
+}
+.fossil:hover{
+    transform: scale(1.1);
+}
+.medical:hover{
+    transform: scale(1.1);
+}
+span {
+    margin-left: 50%;
+    display: block;
+    margin-top: 30px;
+    
+}
+span a{
+    padding-left: 40px;
+    color:rgb(17, 82, 233);
+    font-weight: 500;
+}
+
+#login{
+
+    border-right: 1px solid #72bde3;
+    padding-right: 60px;
+    
+}

@@ -30,9 +30,9 @@ body {
 }
 
 /* تنسيق الأيقونة اللي جوه الهيدر فقط */
-.header-icon {
-    width: 10px ; /* حجم صغير ومناسب للهيدر */
-    height: 10px ;
+.header_icon {
+    width: 40px ; /* حجم صغير ومناسب للهيدر */
+    height: 40px ;
     object-fit: contain;
  
             }

@@ -25,10 +25,11 @@ body {
 }
 
 /* تنسيق الأيقونة اللي جوه الهيدر فقط */
-.header-icon {
-    width: 35px !important; /* حجم صغير ومناسب للهيدر */
-    height: 35px !important;
+.header_icon {
+    width: 45px ; /* حجم صغير ومناسب للهيدر */
+    height: 45px ;
     object-fit: contain;
+    
     /* لو الصورة ملونة وعايزاها بيضاء، فكي التعليق عن السطر اللي جاي: */
     /* filter: brightness(0) invert(1); */
 }

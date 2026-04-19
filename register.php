@@ -25,15 +25,15 @@
 
 <h2>Register</h2>
 
-<form action="">
+<form action="insert/register_insert.php" method="post">
     <img src="imgs/user.png" alt="" id="people">
-    <input type="text" placeholder="Name">
+    <input type="text" name="name" placeholder="Name">
     <br>
 <img src="imgs\email (1).png" alt="" id="email" >
-<input type="email" placeholder="Email">
+<input type="email" name="email" placeholder="Email">
 <br>
 <img src="imgs/padlock.png" alt="" id="password">
-<input type="password" placeholder="Password">
+<input type="password"  name ="password"placeholder="Password">
 <br>
 <input type="submit" value="Sign Up" id="submit">
 
@@ -48,4 +48,5 @@
 
 
 </body>
-</html>
+</html>'
+454'

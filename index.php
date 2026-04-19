@@ -1,5 +1,5 @@
 
-
+<?php include 'insert/index_check.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

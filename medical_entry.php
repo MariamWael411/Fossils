@@ -20,7 +20,7 @@
  <span> Medical Data Entry</span>
 </div>
 <div class="form-container">
-    <form method="POST">
+    <form action="insert/medical_insert.php" method="POST">
         <div class="input-group">
             <img src="imgs/user.png"> <label>Age:</label>
             <input type="number" name="age" placeholder="Enter Age">

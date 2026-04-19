@@ -25,12 +25,12 @@
 
 <h2>Login</h2>
 
-<form action="">
+<form action="insert/login_insert.php" method="post">
 <img src="imgs\email (1).png" alt="" id="email" >
-<input type="email" placeholder="Email">
+<input type="email" name="email" placeholder="Email">
 <br>
 <img src="imgs/padlock.png" alt="" id="password">
-<input type="password" placeholder="Password">
+<input type="password" name="password" placeholder="Password">
 <br>
 <input type="submit" value="Login" id="submit">
 

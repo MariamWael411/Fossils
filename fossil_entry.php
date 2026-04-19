@@ -19,24 +19,24 @@
     <img src="imgs/skeleton.png" class ="header_icon"><span>Fossils Data Entry</span>
 </div>
 <div class="form-container">
-    <form method="POST">
+    <form action="insert/medical_insert.php" method="POST">
         <div class="input-group">
             <img src="imgs/fosill_type.png"> <label>Fossil Type:</label>
-            <select name="t">
+            <select name="type">
                 <option value="Ammonite">Ammonite</option>
             </select>
         </div>
         <div class="input-group">
             <img src="imgs/fossil_age.png"> <label>Age (m.y):</label>
-            <input type="number" name="a" placeholder="Enter Age">
+            <input type="number" name="age" placeholder="Enter Age">
         </div>
         <div class="input-group">
             <img src="imgs/depth.png"> <label>Depth:</label>
-            <input type="number" name="d" placeholder="Enter Depth">
+            <input type="number" name="deep" placeholder="Enter Depth">
         </div>
         <div class="input-group">
             <img src="imgs/location.png"> <label>Location:</label>
-            <input type="text" name="l" placeholder="Enter Location">
+            <input type="text" name="loc" placeholder="Enter Location">
         </div>
         <button type="submit" name="save_fos" class="submit-btn">Submit</button>
     </form>

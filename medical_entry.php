@@ -38,6 +38,9 @@
             <select name="disease">
                 <option value="Healthy">Healthy</option>
                 <option value="Diabetes">Diabetes</option>
+                <option value="Hypertention">Hypertention</option>
+                <option value="Heart Disease">Heart Disease</option>
+                <option value="Asthma">Asthma</option>
             </select>
         </div>
         <button type="submit" name="save_med" class="submit-btn">Submit</button>

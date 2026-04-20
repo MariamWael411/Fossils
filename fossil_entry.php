@@ -19,11 +19,16 @@
     <img src="imgs/skeleton.png" class ="header_icon"><span>Fossils Data Entry</span>
 </div>
 <div class="form-container">
-    <form action="insert/medical_insert.php" method="POST">
+    <form action="insert/fossil_insert.php" method="POST">
         <div class="input-group">
             <img src="imgs/fosill_type.png"> <label>Fossil Type:</label>
             <select name="type">
                 <option value="Ammonite">Ammonite</option>
+                <option value="Bone">Bone</option>
+                <option value="Shell">Shell</option>
+                <option value="Plant">Plant</option>
+                <option value="Tooth">Tooth</option>
+                <option value="FootPrint">FootPrint</option>
             </select>
         </div>
         <div class="input-group">

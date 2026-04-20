@@ -22,6 +22,7 @@ if (isset($_POST['save_fos'])) {
                 alert('تم حفظ بيانات الحفرية بنجاح!');
                 window.location.href='../fossil_entry.php'; 
               </script>";
+              header("location:../dataviewFo.php");
     } else {
         // في حالة وجود خطأ (مثلاً لو مفيش مستخدم برقم 1 في الجدول التاني)
         echo "Error: " . mysqli_error($conn);

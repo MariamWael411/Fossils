@@ -1,0 +1,112 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+ font-family: "Open Sans", sans-serif;
+scroll-behavior: smooth;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    background-image: url("../imgs/medicalback.jpeg"); /* خلفية الصفحة الطبية */
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* تنسيق الهيدر ليكون الكلام والأيقونة في النص وجنب بعض */
+.header-banner {
+    background-color: #3474d4;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* مسافة 15 بكسل بين الصورة والكلام */
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+   
+}
+
+/* تنسيق الأيقونة اللي جوه الهيدر فقط */
+.header_icon {
+    width: 45px ; /* حجم صغير ومناسب للهيدر */
+    height: 45px ;
+    object-fit: contain;
+    
+    /* لو الصورة ملونة وعايزاها بيضاء، فكي التعليق عن السطر اللي جاي: */
+    /* filter: brightness(0) invert(1); */
+}
+.form-container {
+    background: rgba(255, 255, 255, 0.95); /* شفافية بسيطة عشان تبين الخلفية */
+    padding: 40px;
+    
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    width: 70%;
+    margin-top:0px;
+    margin-bottom: 100px;
+}
+table, th, td {
+  border: 1px solid #d6def6;
+  border-collapse: collapse;
+}
+th{
+    background-color: #E8ECF8;
+}
+td{
+    background-color: #F9FAFE;
+}
+
+.dataTables_wrapper .dataTables_filter, 
+.dataTables_wrapper .dataTables_length {
+    margin-bottom: 40px; 
+}
+.dataTables_wrapper .dataTables_paginate, 
+.dataTables_wrapper .dataTables_info {
+    margin-top: 40px; 
+}
+#icon_search{
+
+width: 15px;
+height: 15px;
+position: absolute;
+margin-left: 53%;
+margin-top: 7px;
+}
+.dataTables_wrapper .dataTables_filter input{
+
+padding-left: 30px !important;
+border: none;
+outline: none;
+border-color:#d6def6 !important ;
+
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+
+    background-color:#E8ECF8 !important ;
+    border: 1px solid #d6def6  !important;
+    cursor: pointer !important;
+
+}
+.dataTables_wrapper .dataTables_paginate span .paginate_button{
+
+    background-color: #0f0cea !important;
+ 
+  
+  
+}
+p{
+padding-top: 40px;
+    
+    margin-left: -800px;
+    margin-bottom: 30px;
+    color: #585858;
+    font-size: 20px;
+    
+}

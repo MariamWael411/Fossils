@@ -1,0 +1,113 @@
+/* تنسيق عام للجسم والخلفية */
+body {
+    background: #e0f0ff url('../imgs/wave-bg.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10px;
+    /* تصغير الصفحة لتناسب شاشة اللابتوب وتظهر الرسوم الأربعة معاً */
+    zoom: 0.82; 
+    color: #333;
+}
+
+/* الهيدر العلوي */
+.header {
+    background: linear-gradient(135px, #3b71ca, #54a0ff);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.header h1 { margin: 0; font-size: 28px; }
+.header p { margin: 5px 0 0; opacity: 0.9; }
+
+/* حاوية الكروت العلوية (الإحصائيات الرقمية) */
+.top-cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* تنسيق الكارت الواحد */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-width: 220px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+    /* الخط الملون اللي فوق في الصورة */
+    border-top: 6px solid #3b71ca; 
+    transition: transform 0.3s ease;
+}
+
+.card:hover { transform: translateY(-5px); }
+.card h3 { font-size: 14px; color: #777; margin: 0; text-transform: uppercase; }
+.card p { font-size: 30px; font-weight: bold; color: #3b71ca; margin: 10px 0 0; }
+
+/* شبكة الرسوم البيانية (2 في كل صف) */
+.charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* صندوق الرسم البياني الواحد */
+.chart-box {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+    height: 280px; /* ارتفاع محدد لضمان ثبات الشكل */
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-box h4 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    color: #444;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+/* تنسيق الأزرار */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(39, 174, 96, 0.3);
+    transition: all 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #219150;
+    box-shadow: 0 6px 15px rgba(39, 174, 96, 0.4);
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background: #3b71ca;
+    box-shadow: 0 4px 10px rgba(59, 113, 202, 0.3);
+}
+
+.btn-secondary:hover { background: #2c5aa0; }
+
+/* جعل الرسوم البيانية تملا الصندوق */
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}

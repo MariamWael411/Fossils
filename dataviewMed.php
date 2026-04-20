@@ -86,6 +86,7 @@ $('#mytable').DataTable({
 
 
 </script>
+<a href="dashboard.php?type=medical" class="btn">View Medical Dashboard</a>
 
 </body>
 </html>

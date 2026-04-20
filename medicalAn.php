@@ -77,7 +77,7 @@ $median_sugar=$arr_sugar[$middle];
 
 <p>Medical Statistical Analysis</p>
 
-<a href="dashboard.php">View DashBoard</a>
+<a href="dashboard.php?type=medical">View DashBoard</a>
 
 <div class="mean_age">
 <h3>Mean Age</h3>

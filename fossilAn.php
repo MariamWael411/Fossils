@@ -77,7 +77,7 @@ $median_depth=$arr_depth[$middle];
 
 <p>Fossils Statistical Analysis</p>
 
-<a href="dashboard.php">View DashBoard</a>
+<a href="dashboard.php?type=fossils">View DashBoard</a>
 
 <div class="mean_age">
 <h3>Mean Age</h3>

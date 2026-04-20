@@ -84,6 +84,7 @@ $('#mytable').DataTable({
 
 
 </script>
+<a href="dashboard.php?type=fossils" class="btn">View Fossils Dashboard</a>
 
 </body>
 </html>

@@ -105,8 +105,29 @@ p{
 padding-top: 40px;
     
     margin-left: -800px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: #585858;
     font-size: 20px;
     
+}
+.links {
+
+   margin-left: 700px;
+   margin-bottom: 20px;
+
+}
+.links a{
+      display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+     background-color: #0f0cea; 
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 10px;
+     transition: 0.3s ease;
+
+}
+.links a:hover{
+background-color: #0d0abc;
+transform: scale(1.1);
 }

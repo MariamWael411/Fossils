@@ -19,6 +19,10 @@
  <span> Data View</span>
 </div>
 <p>Viewing patient data in a table</p>
+<div class="links">
+<a href="medicalAn.php">View Analysis</a>
+<a href="medical_entry.php">Add Data</a>
+</div>
 <div class="form-container">
 
 <table id="mytable">

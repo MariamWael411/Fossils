@@ -1,0 +1,212 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+ font-family: "Open Sans", sans-serif;
+scroll-behavior: smooth;
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f4f8;
+    background-image: url("../imgs/medicalback.jpeg"); 
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* تنسيق الهيدر ليكون الكلام والأيقونة في النص وجنب بعض */
+.header-banner {
+    background-color: #3474d4;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* مسافة 15 بكسل بين الصورة والكلام */
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+   
+}
+
+/* تنسيق الأيقونة اللي جوه الهيدر فقط */
+.header_icon {
+    width: 45px ; /* حجم صغير ومناسب للهيدر */
+    height: 45px ;
+    object-fit: contain;
+    
+    /* لو الصورة ملونة وعايزاها بيضاء، فكي التعليق عن السطر اللي جاي: */
+    /* filter: brightness(0) invert(1); */
+}
+p{
+
+  padding-top: 30px;
+    color: #8b8a8a;
+    font-size: 20px;
+}
+.mean_age{
+    display: inline-block;
+    
+    width: 20%;
+    height: 300px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+     margin-left: -660px;
+     background-color: #fff;
+     margin-top: 50px;
+     border-radius: 5px;
+     
+}
+.mean_age h3{
+
+    
+    margin-left: 30px;
+      color: #716f6f;
+    
+     margin-bottom: 200px;
+     padding-top: 40px ;
+     padding-left: 70px;
+}
+.median_age{
+ display: inline-block;
+    
+    width: 20%;
+    height: 300px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+     margin-left: 30px;
+     background-color: #fff;
+     margin-top: -300px;
+     border-radius: 5px;
+
+}
+.median_age h3{
+
+    
+    margin-left: 20px;
+      color: #716f6f;
+    
+     margin-bottom: 200px;
+     padding-top: 40px ;
+     padding-left: 70px;
+}
+.standard{
+
+ width: 20%;
+    height: 300px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+     margin-left: 700px;
+     background-color: #fff;
+     margin-top: -300px;
+     border-radius: 5px;
+}
+.standard h3{
+
+     margin-left: 60px;
+      color: #716f6f;
+     margin-bottom: 200px;
+     padding-top: 40px ;
+     padding-left:70p ;
+}
+
+.mean_Sugar{
+    display: inline-block;
+    
+    width: 20%;
+    height: 300px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+     margin-left: -660px;
+     background-color: #fff;
+     margin-top: 50px;
+     border-radius: 5px;
+     
+}
+.mean_Sugar h3{
+
+    
+    margin-left: 30px;
+      color: #716f6f;
+    
+     margin-bottom: 200px;
+     padding-top: 40px ;
+     padding-left: 70px;
+}
+.median_Sugar{
+ display: inline-block;
+    
+    width: 20%;
+    height: 300px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+     margin-left: 30px;
+     background-color: #fff;
+     margin-top: -300px;
+     border-radius: 5px;
+
+}
+.median_Sugar h3{
+
+    
+    margin-left: 20px;
+      color: #716f6f;
+    
+     margin-bottom: 200px;
+     padding-top: 40px ;
+     padding-left: 70px;
+      
+}
+.standard-Sugar{
+
+ width: 20%;
+    height: 300px;
+     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+     margin-left: 700px;
+     background-color: #fff;
+     margin-top: -300px;
+     border-radius: 5px;
+      margin-bottom: 130px;
+}
+.standard-Sugar h3{
+
+     margin-left: 60px;
+      color: #716f6f;
+     margin-bottom: 200px;
+     padding-top: 40px ;
+     padding-left:70p ;
+    
+}
+.num{
+
+    text-align: center;
+
+    padding-top: 60px;
+    font-size: 24px;
+    
+    color: #0f0cea ;
+}
+hr{
+
+    margin-top: -170px;
+    
+}
+a{
+
+    text-decoration: none;
+    margin-left: 700px;
+    margin-top: 50px;
+    background-color: #0f0cea;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+
+}
+a:hover{
+background-color: #0d0abc;
+transform: scale(1.1);
+}
+
+
+
+    

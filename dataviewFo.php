@@ -19,6 +19,10 @@
  <span> Data View</span>
 </div>
 <p>Viewing Fossil data in a table</p>
+<div class="links">
+<a href="fossilAn.php">View Analysis</a>
+<a href="fossil_entry.php">Add Data</a>
+</div>
 <div class="form-container">
 
 <table id="mytable">

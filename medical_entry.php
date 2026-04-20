@@ -46,5 +46,7 @@
         <button type="submit" name="save_med" class="submit-btn">Submit</button>
     </form>
 </div>
+
+<a href="index.php" id="back">Back</a>
 </body>
 </html>

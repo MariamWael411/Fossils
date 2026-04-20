@@ -76,3 +76,19 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+#back{
+
+  text-decoration: none;
+    margin-top: 30px;
+    background-color: #0f0cea ;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: -450px;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+#back:hover{
+background-color: #0d0abc;
+transform: scale(1.1);
+}

@@ -84,7 +84,7 @@ $median_sugar=$arr_sugar[$middle];
 <hr>
 
 <?php 
-echo "<h4 class='num'>".$mean_age."</h4>"; 
+echo "<h4 class='num'>".round($mean_age,2)."</h4>"; 
 
 ?>
 
@@ -97,7 +97,7 @@ echo "<h4 class='num'>".$mean_age."</h4>";
 <h3>Median Age</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$median_age."</h4>";
+echo "<h4 class='num'>".round($median_age,2)."</h4>";
 
 ?>
 </div>
@@ -107,7 +107,7 @@ echo "<h4 class='num'>".$median_age."</h4>";
 <h3>Standard Deviation</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$stander_age."</h4>";
+echo "<h4 class='num'>".round($stander_age,2)."</h4>";
 
 ?>
 </div>
@@ -116,7 +116,7 @@ echo "<h4 class='num'>".$stander_age."</h4>";
 <h3>Mean Sugar</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$mean_sugar."</h4>";
+echo "<h4 class='num'>".round($mean_sugar,2)."</h4>";
 
 ?>
 </div>
@@ -126,7 +126,7 @@ echo "<h4 class='num'>".$mean_sugar."</h4>";
 <h3>Median Sugar</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$median_sugar."</h4>";
+echo "<h4 class='num'>".round($median_sugar,2)."</h4>";
 
 ?>
 </div>
@@ -136,7 +136,7 @@ echo "<h4 class='num'>".$median_sugar."</h4>";
 <h3>Standard Deviation</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$stan_sug."</h4>";
+echo "<h4 class='num'>".round($stan_sug,2)."</h4>";
 
 ?>
 </div>

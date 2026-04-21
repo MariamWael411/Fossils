@@ -84,7 +84,7 @@ $median_depth=$arr_depth[$middle];
 <hr>
 
 <?php 
-echo "<h4 class='num'>".$mean_age."</h4>"; 
+echo "<h4 class='num'>".round($mean_age,2)."</h4>"; 
 
 ?>
 
@@ -97,7 +97,7 @@ echo "<h4 class='num'>".$mean_age."</h4>";
 <h3>Median Age</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$median_age."</h4>";
+echo "<h4 class='num'>".round($median_age,2)."</h4>";
 
 ?>
 </div>
@@ -107,7 +107,7 @@ echo "<h4 class='num'>".$median_age."</h4>";
 <h3>Standard Deviation</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$stander_age."</h4>";
+echo "<h4 class='num'>".round($stander_age,2)."</h4>";
 
 ?>
 </div>
@@ -116,7 +116,7 @@ echo "<h4 class='num'>".$stander_age."</h4>";
 <h3>Mean Depth</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$mean_depth."</h4>";
+echo "<h4 class='num'>".round($mean_depth,2)."</h4>";
 
 ?>
 </div>
@@ -126,7 +126,7 @@ echo "<h4 class='num'>".$mean_depth."</h4>";
 <h3>Median Depth</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$median_depth."</h4>";
+echo "<h4 class='num'>".round($median_depth,2)."</h4>";
 
 ?>
 </div>
@@ -136,7 +136,7 @@ echo "<h4 class='num'>".$median_depth."</h4>";
 <h3>Standard Deviation</h3>
 <hr>
 <?php 
-echo "<h4 class='num'>".$stan_Dep."</h4>";
+echo "<h4 class='num'>".round($stan_Dep,2)."</h4>";
 
 ?>
 </div>

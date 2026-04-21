@@ -35,6 +35,14 @@
         const dbLabels = <?php echo json_encode($labels); ?>; // الأسماء من الـ Database
         const dbData = <?php echo json_encode($counts); ?>;   // الأرقام من الـ Database
 
+
+const histLabels = <?php echo json_encode($hist_labels); ?>;
+
+const histData = <?php echo json_encode($hist_counts); ?>;
+
+const lineLabels = <?php echo json_encode($line_labels); ?>;
+const lineData = <?php echo json_encode($line_data); ?>;
+
         // الرسم البياني بالأعمدة (يعرض الأسماء)
         new Chart(document.getElementById('barChart'), { 
             type: 'bar', 
@@ -49,17 +57,53 @@
             options: ctxCfg 
         });
 
-        new Chart(document.getElementById('lineChart'), { 
-            type: 'line', 
-            data: { labels: ['Point A', 'Point B', 'Current'], datasets: [{ label: 'Entries', data: [1, 5, <?php echo $total; ?>], borderColor: '#3b71ca', fill: true }] }, 
-            options: ctxCfg 
-        });
+      
+
+  new Chart(document.getElementById('lineChart'), { 
+    type: 'line',
+    data: { 
+        labels: lineLabels,
+        datasets: [{ 
+            label: 'Growth Over Time',
+            data: lineData,
+            borderColor: '#3b71ca',
+            fill: true,
+            tension: 0.3
+        }] 
+    },
+    options: {
+        maintainAspectRatio: false,
+        scales: {
+            x: {
+                title: {
+                    display: true,
+                    text: 'Date'
+                }
+            },
+            y: {
+                title: {
+                    display: true,
+                    text: 'Records'
+                },
+                beginAtZero: true
+            }
+        }
+    }
+});
+
 
         new Chart(document.getElementById('histChart'), { 
-            type: 'bar', 
-            data: { labels: ['Group 1', 'Group 2'], datasets: [{ label: 'Distribution', data: [10, 15], backgroundColor: '#50e3c2' }] }, 
-            options: ctxCfg 
-        });
+    type: 'bar',
+    data: { 
+        labels: histLabels,
+        datasets: [{ 
+            label: 'Age Distribution',
+            data: histData,
+            backgroundColor: '#50e3c2'
+        }] 
+    },
+    options: ctxCfg 
+});
     </script>
 </body>
 </html>

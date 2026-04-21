@@ -20,7 +20,7 @@ if (isset($_POST['save_fos'])) {
     if (mysqli_query($conn, $sql)) {
         echo "<script>
                 alert('تم حفظ بيانات الحفرية بنجاح!');
-                window.location.href='../fossil_entry.php'; 
+                window.location.href='../PredictionFo.php'; 
               </script>";
               header("location:../dataviewFo.php");
     } else {

@@ -13,7 +13,7 @@ if (isset($_POST['save_med'])) {
 
     if (mysqli_query($conn, $sql)) {
         echo "<script>alert('تم الحفظ بنجاح!'); window.location.href='../medical_entry.php';</script>";
-        header("location:../dataviewMed.php");
+        header("location:../PredictionMed.php");
     } else {
         echo "Error: " . mysqli_error($conn);
     }
